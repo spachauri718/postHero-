@@ -1,10 +1,12 @@
  import './global.css';
+ import {Routes ,Route } from "react-router-dom"
+
  
  const App = () => {
   return (
-    <h1 className="font-bold underline">
-      Hello world!
-    </h1>
+    <Routes>
+     <Route path= "/sign-in" element={SignUpPage} />
+    </Routes>
   )
 }
 
